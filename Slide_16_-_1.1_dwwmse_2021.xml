@@ -2,19 +2,19 @@
 <!DOCTYPE dwwm_2021 [
     <!ELEMENT <dwwm_2021> (prenom+, nom, age, genre?, site_perso?, info_confinement, info_dev)>
     <!-- DTD pour la civilité -->
-    <!ELEMENT Andranik (#PCDATA)>
-    <!ELEMENT HAKOBYAN (#PCDATA)>
-    <!ELEMENT 25 (#PCDATA)>
-    <!ELEMENT masculin (masculin|feminin) >
+    <!ELEMENT prenom (#PCDATA)>
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT genre (masculin|feminin) >
     <!ELEMENT masculin EMPTY >
     <!ELEMENT feminin EMPTY >
-    <!ELEMENT https://andranik777.github.io/portfolio/ (#PCDATA)>
+    <!ELEMENT site_perso (#PCDATA)>
     <!-- DTD pour le confinement-->
-    <!ELEMENT 5, Saint-Etienne (nombre_de_personne, lieu)>
-    <!ELEMENT 3,0 (nombre_adulte, nombre_enfant?)>
+    <!ELEMENT info_confinement (nombre_de_personne, lieu)>
+    <!ELEMENT nombre_de_personne (nombre_adulte, nombre_enfant?)>
     <!ELEMENT nombre_adulte (#PCDATA)>
     <!ELEMENT nombre_enfant (#PCDATA)>
-    <!ELEMENT jardin,   (commune, type, surface, jardin)>
+    <!ELEMENT lieu (commune, type, surface, jardin)>
     <!ELEMENT commune (#PCDATA)>
     <!ELEMENT type (#PCDATA) >
     <!ELEMENT surface (#PCDATA) >
@@ -22,8 +22,8 @@
     <!ELEMENT jardin_presence (#PCDATA)>
     <!ELEMENT jardin_surface (#PCDATA) >
     <!-- DTD pour lales infos de dev -->
-    <!ELEMENT info_dev ((HTML,CSS,SASS,BOOTSTRAP,JS,NODEJS,REACTJS,PHP, Ruby on Rails ),+40, "sites vitrine de surf, aplication trouver un film, api quiz, portfolio, site achicher score  et trouver stade pour les matchs de la ligue 1, jeu de snake, jeu de morpion, bot twitter, bot de scalping data avec ruby")>
-    <!ELEMENT langage_deja_utilise (XML | HTML | CSS | SASS | LESSCSS | BOOTSTRAP | MATERIALIZE | FOUNDATION | JS | TYPESCRIPT | COFFEESCRIPT | JQUERY | ANGULARJS | NODEJS | REACTJS | VUEJS | ANGULAR | PHP | SYMFONY | LARAVEL | WORDPRESS |  Ruby on Rails )*>
+    <!ELEMENT info_dev (langage_deja_utilise*, nombre_de_site_developpe?, exemple_de_site_developpe?)>
+    <!ELEMENT langage_deja_utilise (XML | HTML | CSS | SASS | LESSCSS | BOOTSTRAP | MATERIALIZE | FOUNDATION | JS | TYPESCRIPT | COFFEESCRIPT | JQUERY | ANGULARJS | NODEJS | REACTJS | VUEJS | ANGULAR | PHP | SYMFONY | LARAVEL | WORDPRESS )*>
     <!ELEMENT XML EMPTY >
     <!ELEMENT HTML EMPTY >
     <!ELEMENT CSS EMPTY >
@@ -44,8 +44,41 @@
     <!ELEMENT PHP EMPTY >
     <!ELEMENT SYMFONY EMPTY >
     <!ELEMENT LARAVEL EMPTY >
-    <!ELEMENT Ruby on Rails EMPTY >
+    <!ELEMENT RUBY-ON-RAILS EMPTY >
     <!ELEMENT WORDPRESS EMPTY >
     <!ELEMENT nombre_de_site_developpe (#PCDATA) >
     <!ELEMENT exemple_de_site_developpe (#PCDATA) >
 ]>
+
+<dwwm_2021>
+  <prenom>Andranik</prénom>
+  <nom>HAKOBYAN</nom>
+  <age>25</age>
+  <genre>masculin</genre>
+  <info_confinement>
+    <nombre_de_personne>
+      <nombre_adulte>3</nombre_adulte>
+    </nombre_de_personne>
+    <lieu>
+      <commune>Saint-Etienne</commune>
+      <type>appartement</type>
+      <surface>70m2</surface>
+      <jardin>
+        <jardin_presence>OUI</jardin_presence>
+      </jardin>
+    </lieu>
+  </info_confinement>
+  <info_dev>
+    <langage_deja_utilise>
+      <HTML />
+      <CSS />
+      <SASS />
+      <JS />
+      <BOOTSTRAP/>
+      <NODEJS/>
+      <REACTJS/>
+      <PHP/>
+      <RUBY-ON-RAILS/>
+    </langage_deja_utilise>
+  </info_dev>
+</dwwm_2021> 
