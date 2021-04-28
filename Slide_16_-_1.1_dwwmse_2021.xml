@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dwwm_2021 [
+    <!ELEMENT <dwwm_2021> (prenom+, nom, age, genre?, site_perso?, info_confinement, info_dev)>
+    <!-- DTD pour la civilité -->
+    <!ELEMENT Andranik (#PCDATA)>
+    <!ELEMENT HAKOBYAN (#PCDATA)>
+    <!ELEMENT 25 (#PCDATA)>
+    <!ELEMENT masculin (masculin|feminin) >
+    <!ELEMENT masculin EMPTY >
+    <!ELEMENT feminin EMPTY >
+    <!ELEMENT https://andranik777.github.io/portfolio/ (#PCDATA)>
+    <!-- DTD pour le confinement-->
+    <!ELEMENT 5, Saint-Etienne (nombre_de_personne, lieu)>
+    <!ELEMENT 3,0 (nombre_adulte, nombre_enfant?)>
+    <!ELEMENT nombre_adulte (#PCDATA)>
+    <!ELEMENT nombre_enfant (#PCDATA)>
+    <!ELEMENT jardin,   (commune, type, surface, jardin)>
+    <!ELEMENT commune (#PCDATA)>
+    <!ELEMENT type (#PCDATA) >
+    <!ELEMENT surface (#PCDATA) >
+    <!ELEMENT jardin (jardin_presence, jardin_surface?) >
+    <!ELEMENT jardin_presence (#PCDATA)>
+    <!ELEMENT jardin_surface (#PCDATA) >
+    <!-- DTD pour lales infos de dev -->
+    <!ELEMENT info_dev ((HTML,CSS,SASS,BOOTSTRAP,JS,NODEJS,REACTJS,PHP, Ruby on Rails ),+40, "sites vitrine de surf, aplication trouver un film, api quiz, portfolio, site achicher score  et trouver stade pour les matchs de la ligue 1, jeu de snake, jeu de morpion, bot twitter, bot de scalping data avec ruby")>
+    <!ELEMENT langage_deja_utilise (XML | HTML | CSS | SASS | LESSCSS | BOOTSTRAP | MATERIALIZE | FOUNDATION | JS | TYPESCRIPT | COFFEESCRIPT | JQUERY | ANGULARJS | NODEJS | REACTJS | VUEJS | ANGULAR | PHP | SYMFONY | LARAVEL | WORDPRESS |  Ruby on Rails )*>
+    <!ELEMENT XML EMPTY >
+    <!ELEMENT HTML EMPTY >
+    <!ELEMENT CSS EMPTY >
+    <!ELEMENT SASS EMPTY >
+    <!ELEMENT LESSCSS EMPTY >
+    <!ELEMENT BOOTSTRAP EMPTY >
+    <!ELEMENT MATERIALIZE EMPTY >
+    <!ELEMENT FOUNDATION EMPTY >
+    <!ELEMENT JS EMPTY >
+    <!ELEMENT TYPESCRIPT EMPTY >
+    <!ELEMENT COFFEESCRIPT EMPTY >
+    <!ELEMENT JQUERY EMPTY >
+    <!ELEMENT ANGULARJS EMPTY >
+    <!ELEMENT NODEJS EMPTY >
+    <!ELEMENT REACTJS EMPTY >
+    <!ELEMENT VUEJS EMPTY >
+    <!ELEMENT ANGULAR EMPTY >
+    <!ELEMENT PHP EMPTY >
+    <!ELEMENT SYMFONY EMPTY >
+    <!ELEMENT LARAVEL EMPTY >
+    <!ELEMENT Ruby on Rails EMPTY >
+    <!ELEMENT WORDPRESS EMPTY >
+    <!ELEMENT nombre_de_site_developpe (#PCDATA) >
+    <!ELEMENT exemple_de_site_developpe (#PCDATA) >
+]>
