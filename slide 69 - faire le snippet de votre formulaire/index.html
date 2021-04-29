@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="#" method="post">
+            <div>
+                <p>Entrez vos informations personnelles, traitement par la CIA</p>
+                <label for="name">Nom</label>
+                <input name="name" id="name" type="text" placeholder="Nom">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" placeholder="Email">
+            </div>
+            <div>
+                <label for="phone">Telephone</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div>
+                <label id="choixClient">Votre type</label>
+                <select name="choix" id="choixClient">
+                    <option value="Type1">Type 1</option>
+                    <option value="Type2">Type 2</option>
+                    <option value="Type3">Type 3</option>
+                </select>
+            </div>
+            <div>
+                <p>Comment vous avez-nous connu ?</p>
+                <div>
+                    <input type="checkbox" id="scales" name="scales">
+                    <label for="scales">Choix 1</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="scales" name="scales">
+                    <label for="scales">Choix 2</label>
+                  </div>
+
+            </div>
+            
+            <br>
+            <label for="story">Message</label>
+            <div>
+                <textarea id="story" name="story" rows="5" cols="33"></textarea>
+            </div>
+            <div>
+                <br>
+                <button type="submit">Dire bonjour</button>
+            </div>
+        </form>
+    </main>
+
+
+</body>
+
+</html>
