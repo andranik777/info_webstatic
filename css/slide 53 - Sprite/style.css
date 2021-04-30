@@ -1,8 +1,8 @@
 
 .facebook, .twitter , .youtube , .linkedin{
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 84px;
+    height: 84px;
     margin-right: 20px;
     float: left;
 }
@@ -18,43 +18,44 @@
 }
 
 .facebook {
-    background-image: url(img/fb.png);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 0px;
 }
 
 .twitter {
-    background-image: url(img/twitter-logo.jpg);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 252px -84px;
 }
 
 .youtube {
-    background-image: url(img/youtube.png);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 84px -84px;
 }
 
 .linkedin {
-    background-image: url(img/linkdin.png);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 588px -84px;
 }
 
 /* Hover */
 
 .facebook:hover{
-    background-image: url(img/fb-hover.png);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 0px 0px;
 }
 
 
 .twitter:hover{
-    background-image: url(img/tw-hover.png);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 252px 0px;
 }
 
 .youtube:hover{
-    background-image: url(img/youtube-hover.png);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 84px 0px;
+
 }
 .linkedin:hover{
-    background-image: url(img/ln-hover.png);
-    background-size: cover ;
+    background-image: url(social-sprite.png);
+    background-position: 588px 0px;
 }

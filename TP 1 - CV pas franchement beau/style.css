@@ -1,0 +1,256 @@
+/* Import des feuilles de styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+@import url("css/text-format.css");
+@import url("css/btn.css");
+@import url("css/bg-color.css");
+@import url("css/bloc.css");
+
+/* Gnerale*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*body*/
+
+header {
+    position: relative;
+    height: 450px;
+    background-image: url(img/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+ul span  {
+    float: left;
+    margin-left: 10px;
+    color: black;
+}
+
+ ul a  {
+    float: left;
+    margin-left: 20px;
+}
+
+
+nav {
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    background : white;
+    padding: 10px;
+}
+
+#logo img {
+    border: 1px solid white ;
+    padding: 5px;
+}
+
+#logo h1 {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+
+#welcome {
+    height: 370px;
+    position: relative;
+}
+
+#welcome h1 {
+    position: absolute;
+    left: 40%;
+    margin-top: 33px;
+    font-weight: normal;
+}
+
+.main-div {
+    position: relative;
+    top:25%;
+    margin-left: 20px;
+
+}
+
+.main-div hr {
+    margin: 20px 0px;
+    width: 100%;
+}
+
+#welcome > div > p:nth-child(3) {
+    position: absolute;
+    left: 20%;
+}
+
+#welcome > div > p:nth-child(4) {
+    /*position: absolute; */
+    margin: 66px auto;
+    /* left: 45%; */
+    padding: 20px;
+    background: rgb(78, 136, 155);
+    border-radius: 10px;
+    width: 100px;
+}
+
+#welcome > div > p:nth-child(4)>a {
+    color: white;
+}
+
+
+/*section 2*/
+
+#competence {
+    position: relative;
+    height: 1100px;
+}
+
+#competence >h1{
+    padding: 40px 41% 0px 41%;
+}
+#competence > hr {
+    width: 62%;
+    margin-left: 155px;
+}
+
+
+#competence-main {
+    position: relative;
+    top: 10%;
+}
+
+#competence-main > div:nth-child(1) {
+    position: relative;
+    margin: 30px 10%;
+    padding: 50px 10px;
+    width: 80%;
+
+}
+#competence-main > div:nth-child(1) > div {
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    line-height: 38px;
+}
+
+
+#competence-main > div:nth-child(2) {
+    position: relative;
+    margin: 30px 10%;
+    padding: 50px 10px;
+    width: 80%;
+
+}
+
+#competence-main > div:nth-child(2) > div {
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    line-height: 38px;
+
+}
+
+
+#competence-main > div:nth-child(3) {
+    position: relative;
+    margin: 0px 10%;
+    padding: 50px 10px;
+    width: 80%;
+
+}
+
+#competence-main > div:nth-child(3) > div {
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    line-height: 38px;
+}
+
+#competence-main > div:nth-child(4) {
+    position: relative;
+    margin: 30px 10%;
+    padding: 50px 10px;
+    width: 80%;
+}
+
+#competence-main > div:nth-child(4) > div {
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    line-height: 38px;
+}
+
+/* section 3 */
+
+#ref {
+    position: relative;
+    height: 550px;
+}
+
+#ref > h1 {
+    margin: 0px 47%;
+    padding-top: 50px;
+}
+#ref > hr {
+    width: 62%;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+ #container {
+    /*  display: inline-flex; alternative */
+    position: relative;
+    top: 15%;
+
+}
+
+#container > div:nth-child(1) {
+    position: absolute;
+    top: -44%;
+    left: 3%;
+    width: 30%;
+    text-align: center;
+    line-height: 43px;
+}
+
+#container > div:nth-child(2) {
+    position: absolute;
+    top: -44%;
+    left: 33%;
+    width: 30%;
+    text-align: center;
+    line-height: 43px;
+}
+
+#container > div:nth-child(3) {
+    position: absolute;
+    top: -44%;
+    left: 67%;
+    width: 30%;
+    text-align: center;
+    line-height: 43px;
+}
+
+
+.footer {
+    padding: 20px;
+    position: relative;
+    left: 40%;
+}
+
