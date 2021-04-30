@@ -30,5 +30,9 @@ p::selection{
 
 h1::before {
     content: "";
-    margin-right: 6px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/16x16/ok.png);
+    margin-right: 10px;
 }
