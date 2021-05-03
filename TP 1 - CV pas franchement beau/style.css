@@ -51,7 +51,7 @@ ul span  {
 }
 
 
-nav {
+#main-navbar {
     position: absolute;
     top: 90%;
     left: 35%;
@@ -254,3 +254,62 @@ nav {
     left: 40%;
 }
 
+
+/*navbar social media*/
+
+#header-nav li {
+    display: inline;
+
+}
+#header-nav a {
+    color: white;
+}
+
+#header-nav {
+
+    background-color: black;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    position: relative;
+}
+
+#header-nav > ul > div:nth-child(1) {
+    position: absolute;
+    left: 5%;
+}
+
+ #header-nav-div1 {
+    position: absolute;
+    left: 64%;
+    width: 100%;
+}
+#header-nav-div1  img {
+    margin-top: 2px;
+    margin-left: -12px;
+}
+
+#header-nav-div1 > div >div  {
+    padding-left: 5px;
+}
+
+
+
+/*Responsive*/
+
+
+@media screen and (max-width: 640px) {
+    #main-navbar {
+        position: absolute;
+        top: 90%;
+        left: 0%;
+        background: white;
+        padding: 10px;
+    }
+
+    #logo {
+        position: absolute;
+        left: 25%;
+        top: 15%;
+    }
+}

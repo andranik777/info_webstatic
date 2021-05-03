@@ -14,27 +14,37 @@
     margin-bottom: 30px;
     margin-right: 30px;
 
-
+}
+.social a {
 }
 
 .facebook {
     background-image: url(social-sprite.png);
     background-position: 0px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
 }
 
 .twitter {
     background-image: url(social-sprite.png);
     background-position: 252px -84px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+
 }
 
 .youtube {
     background-image: url(social-sprite.png);
     background-position: 84px -84px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
 }
 
 .linkedin {
     background-image: url(social-sprite.png);
     background-position: 588px -84px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
 }
 
 /* Hover */
@@ -42,20 +52,32 @@
 .facebook:hover{
     background-image: url(social-sprite.png);
     background-position: 0px 0px;
+    transition: background 0.30s ;
+
+
 }
 
 
 .twitter:hover{
     background-image: url(social-sprite.png);
     background-position: 252px 0px;
+    transition-delay: 1s;
+    transition-property: background-color;
+    transition: background 0.15s ease-in-out;
+
+
 }
 
 .youtube:hover{
     background-image: url(social-sprite.png);
     background-position: 84px 0px;
+    transform: rotate(120deg);
+
 
 }
 .linkedin:hover{
     background-image: url(social-sprite.png);
     background-position: 588px 0px;
+    transform: rotate(120deg);
+
 }
