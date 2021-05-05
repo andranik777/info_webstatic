@@ -1,0 +1,17 @@
+{
+  "name": "1.-exemple",
+  "version": "1.0.0",
+  "description": "- Initiliser via npm\r - Réorganiser le projet correctement\r - Ajouter normalize css via npm puis faire un import\r - Compiler les fichiers sass en css minifié (et le placer afin qu’il soit lu par\r l’index.html)\r - Faire en sorte que le fichier css se recompile à chaque enregistrement des\r fichiers scss\r - Modifier :\r   - La couleur générale et la couleur du bouton « GET HELP ALREADY ! »\r   - La taille du breakpoint\r   - Faire en sorte que l’arrondi de la boite soit 3 fois plus grande que le padding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch app/sass/style.scss:public/css/style.css",
+    "scss-build": "sass app/sass/style.scss:public/css/style.css --style compressed"
+  },
+  "author": "andranik",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.32.12"
+  }
+}
