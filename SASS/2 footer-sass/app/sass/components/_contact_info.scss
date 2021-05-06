@@ -5,9 +5,12 @@
 .main-contact-info {
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 2rem ;
-    border-bottom: 1px solid rgb(91, 91,91);
-    
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $gray;
+
 }
 
 
+.main-contact-info h3 {
+    text-transform: uppercase;
+}

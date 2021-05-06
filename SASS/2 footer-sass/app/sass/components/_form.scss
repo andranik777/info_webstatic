@@ -7,7 +7,7 @@ form {
 }
 
 
-#form-content > div {
+#form-content>div {
     display: flex;
     flex-flow: column wrap;
 }
@@ -16,14 +16,20 @@ form {
     display: flex;
     flex-flow: column wrap;
     margin: 0 auto;
-    padding-top: 2rem ;
+    padding-top: 2rem;
     width: 100%;
 }
 
 form input {
     margin-bottom: 0.8rem;
     padding: 1rem 0;
+    background-color: transparent;
+    border: 1px solid $gray;
 
+}
+
+form textarea {
+    background-color: transparent;
 }
 
 
@@ -31,8 +37,12 @@ form button {
     width: 10rem;
     margin: 5rem auto;
     padding: 1rem 0;
-    background-color: #949494;
-    color: #E3E3E3;
+    background-color: $gray;
+    color: $white;
     border-color: transparent;
 
+}
+
+::placeholder {
+    padding-left: 20px ;
 }
