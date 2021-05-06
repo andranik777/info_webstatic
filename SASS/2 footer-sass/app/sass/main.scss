@@ -1,0 +1,54 @@
+@import "./../../node_modules/normalize.css/normalize.css";
+
+@import "./components/general";
+
+@import "./components/header";
+
+@import "./components/contact_info";
+
+@import "./components/form";
+
+
+@media screen and (min-width: 680px) { 
+    .container {
+        flex-flow: row ;
+        align-items: flex-start;
+    }
+    form {
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+    form input {
+        margin-right: 2rem;
+        width: 43%;
+        box-sizing: content-box;
+        display: inline-flex;
+    }
+    form textarea {
+        width: 92%;
+    }
+    #form-content {
+        flex-flow: row wrap;
+        margin-top: 4rem;
+    }
+
+    form button {
+        margin: 2rem 0;
+    }
+
+    .main-contact-info {
+        border-bottom: 0;
+    }
+    #main-footer-info {
+        width: 80%;
+    }
+
+    #form-content {
+        flex-flow: column wrap;
+    }
+    #form-content > div {
+        display: flex;
+        flex-flow: row;
+    }
+
+}

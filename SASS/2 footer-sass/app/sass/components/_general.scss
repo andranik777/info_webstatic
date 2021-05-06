@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@100&display=swap');
+
+
+body {
+    background-color: #292929;
+    color: rgb(91, 91,91)
+}
+
+h1,h2,h3,h4,h5, input[type=submit] {
+    font-family: Montserrat;
+    color: #E3E3E3;
+}
+
+footer {
+    margin: 0 auto;
+}
+p, ::placeholder {
+    font-family: "Crimson Text";
+}
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+
+#footer-bottom-info p {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-bottom-info {
+    border-top: 1px solid rgb(91, 91,91);
+}
