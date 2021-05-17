@@ -1,0 +1,42 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 40, 37);
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.footer-container > div {
+    margin-right: 8rem;
+    margin-top: 2rem;
+}
+
+.footer-container li {
+    list-style: none;
+    color: rgb(122, 133, 139);
+    text-decoration-color: rgb(122, 133, 139);
+   
+}
+
+.footer-container li:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(122, 133, 139);
+}
+
+.footer-container li::before {
+    content: ">";
+    padding-right: 0.8rem;
+    
+}
+
+
+.copyright {
+    padding: 2rem;
+    background-color: rgb(36,35,32);
+    color: rgb(122, 133, 139);
+    text-align: center;
+}
+
+.copyright span {
+    color: white;
+}

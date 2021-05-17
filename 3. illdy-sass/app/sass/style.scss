@@ -1,0 +1,67 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/normalize.css/normalize.css";
+@import "./composent/navbar.scss";
+@import "./composent/section.scss";
+@import "./composent/card-section.scss";
+@import "./composent/footer.scss";
+
+
+
+
+@media screen and (max-width: 680px) { 
+
+    header {
+        background-size: cover;
+        background-position-x: center;
+    }
+    #main-slide {
+        height: 25rem;
+        padding-top:10%;
+    }
+    .main-slide-btn {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    #main-slide-content {
+        margin-top: 3rem;
+
+    }
+
+    .section-container {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        background-color: white;
+
+    }
+
+    .section-container img {
+    max-width: 48%;
+    margin-bottom: 1rem;
+    }
+
+    .main-presentation {
+        flex-flow: column wrap;
+    }
+
+    .card-section {
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+    .card-section article {
+        margin-right: 0 !important;
+    }
+    .flooter-container {
+        justify-content: space-between;
+    }
+    .footer-container > div {
+
+        margin-right: 0rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .footer-container > div h2 {
+        font-size: 1.2rem;
+        margin-left: 3rem;
+    }
+}
